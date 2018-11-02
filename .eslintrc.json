@@ -1,0 +1,52 @@
+{
+    "env": {
+        "browser": true,
+        "es6": true
+    },
+    "extends": [
+        "eslint:recommended"
+    ],
+    "globals": {
+        "WebGLUtils": false,
+        "radians": false,
+        "vec2": false, "vec3": false, "vec4": false,
+        "mat2": false, "mat3": false, "mat4": false,
+        "sizeof": false,
+        "equal": false, "add": false, "subtract": false, "mult": false, "divide": false, "scale": false,
+        "flatten": false,
+        "transpose": false,
+        "printm": false, "det": false,
+        "negate": false, "dot": false, "cross": false, "length": false, "normalize": false, "mix": false,
+        "translate": false, "rotate": false, "rotateX": false, "rotateY": false, "rotateZ": false, "scalem": false,
+        "lookAt": false,
+        "ortho": false, "perspective": false,
+        "loadFile": false, "compileShader": false, "linkProgram": false,
+        "load_obj": false,
+        "create_vertex_attr_buffer": false, "load_texture": false, "load_cubemap_texture": false,
+        "line_seg_triangle_intersection": false, "generate_mesh": false, "calc_normals": false
+    },
+    "rules": {
+        "brace-style": ["error", "1tbs", { "allowSingleLine": true }],
+        "consistent-return": "error",
+        "curly": ["error", "multi-line", "consistent"],
+        "eqeqeq": ["error", "always", {"null": "ignore"}],
+        "indent": ["error", "tab"],
+        "no-console": "warn",
+        "no-eval": "error",
+        "no-implied-eval": "error",
+        "no-new": "error",
+        "no-new-func": "error",
+        "no-new-wrappers": "error",
+        "no-shadow": "error",
+        "no-undef-init": "error",
+        "no-undefined": "error",
+        "no-unused-vars": "error",
+        "no-use-before-define": ["error", {"functions": false}],
+        "no-var": "error",
+        "semi-spacing": "error",
+        "semi-style": ["error", "last"],
+        "space-before-blocks": "error",
+        "space-before-function-paren": ["error", {"anonymous": "always", "named": "never", "asyncArrow": "always"}],
+        "space-unary-ops": "error"
+    }
+}

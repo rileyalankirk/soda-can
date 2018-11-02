@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- Give the page a title - make sure it is descriptive! -->
+        <title>Soda Can</title>
+
+        <!-- Load utilities and functions -->
+        <script src="common/webgl-utils.js"></script>
+        <script src="common/MV.js"></script>
+        <script src="common/init-shaders.js"></script>
+        <script src="tools.js"></script>
+
+        <!-- Load the code for this example -->
+        <script src="sodacan.js"></script>
+
+        <style>
+        body {
+            padding: 0;
+            margin: 0;
+            overflow: hidden;
+            background: url(http://upload.wikimedia.org/wikipedia/commons/5/5d/Checker-16x16.png) repeat;
+        }
+
+        #toolbar {
+            position: absolute;
+            bottom: 0;
+            right: 0;
+            padding: 0.25em;
+            background-color: rgba(255,255,255,0.5);
+            text-align: right;
+        }
+
+        select, button, input {
+            vertical-align: middle;
+        }
+        </style>
+    </head>
+    <body>
+        <!-- Define the canvas to use for the WebGL example -->
+        <canvas id="gl-canvas" style="text-align:center;">
+            Your browser doesn't support HTML5 canvas element
+        </canvas>
+        <div id="toolbar">
+            <!-- TODO: drop down -->
+        </div>
+    </body>
+</html>
